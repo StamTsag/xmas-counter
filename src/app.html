@@ -3,14 +3,29 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>XMAS Counter</title>
-		<meta name="description" content="An adaptive xmas counter." />
 		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%svelte.head%
+
+		<!-- General Meta -->
+		<meta content="XMAS, Counter, FOSS, Open, Source" name="keywords">
+		<meta content="An adaptive xmas counter." name="description">
+		<meta content="Shadofer" name="author">
+		
+		<!-- Discord Embed -->
+		<meta content="XMAS Counter" property="og:title" />
+		<meta content="An adaptive xmas counter." property="og:description" />
+		<meta content="https://xmasdays.herokuapp.com" property="og:url" />
+		<meta content="https://xmasdays.herokuapp.com/favicon.png" property="og:image" />
+		<meta content="#fc0505" data-react-helmet="true" name="theme-color" />
+		
+		<!-- Twitter Card -->
+		<meta content="summary" name="twitter:card">
+		<meta content="XMAS Counter" name="twitter:title">
 
 		<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 	
+		%svelte.head%
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
