@@ -1,8 +1,4 @@
-<script context='module'>
-    export const ssr = false;
-</script>
-
-<script>
+<script lang='ts'>
     import { onMount } from 'svelte';
     import Particles from 'svelte-particles';
 
@@ -83,12 +79,15 @@
         // get days element
         const xmasDays = document.getElementById('xmas-days');
 
-        if(daysLeft == 0) {
-            xmasDays.textContent = 'Merry Christmas!';
-            
-        } else {
-            // adjust if last day
-            daysLeft > 1 ? xmasDays.textContent = daysLeft + ' days till Christmas!' : xmasDays.textContent = daysLeft + ' day till Christmas!';
+        // nothing else works (!, ?, as HTMLElement) ^
+        if(xmasDays) {
+                if(daysLeft == 0) {
+                xmasDays.textContent = 'Merry Christmas!';
+                
+            } else {
+                // adjust if last day
+                daysLeft > 1 ? xmasDays.textContent = daysLeft + ' days till Christmas!' : xmasDays.textContent = daysLeft + ' day till Christmas!';
+            }
         }
     });
 </script>
