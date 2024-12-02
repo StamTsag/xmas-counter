@@ -1,5 +1,5 @@
 {
-	"name": "xmas-counter-v5",
+	"name": "xmas-counter",
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
@@ -28,7 +28,7 @@
 		"vite": "^5.0.3"
 	},
 	"engines": {
-		"node": "20.x",
+		"node": "18.x",
 		"npm": "8.x"
 	}
 }
