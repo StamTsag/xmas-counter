@@ -1,38 +1,24 @@
-# sv
+<p align='center'><a href='https://xmasdays.herokuapp.com'><img src='https://i.ibb.co/7tFzW1D/favicon.png' alt='Fronvo icon'><a/></p>
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<h1 style='text-align: center;'>
 
-## Creating a project
+![Website](https://img.shields.io/website?down_message=down&label=status&style=for-the-badge&up_message=up&url=https%3A%2F%2Fxmasdays.herokuapp.com)
+![GitHub](https://img.shields.io/github/license/Shadofer/xmas-counter?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/Shadofer/xmas-counter?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/Shadofer/xmas-counter?style=for-the-badge) ![Lines of code](https://img.shields.io/tokei/lines/github/Shadofer/xmas-counter?style=for-the-badge) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Shadofer/xmas-counter?style=for-the-badge)</h1>
 
-If you're seeing this, you've probably already done this step. Congrats!
+## An open source xmas counter
 
-```bash
-# create a new project in the current directory
-npx sv create
+Wiggly woggly and reactive!
 
-# create a new project in my-app
-npx sv create my-app
-```
+## Why use this one?
 
-## Developing
+- Clean codebase, barebones functionality allows it to be easily extendable.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Reactive snow throughout the year!
 
-```bash
-npm run dev
+## Tools used
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- [Pixlr](https://pixlr.com) for the creepy favicon.
 
-## Building
+- [Photopea](https://photopea.com) for the SVG background.
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- [TSParticles](https://github.com/matteobruni/tsparticles/tree/main/components/svelte) for the snow particles.
