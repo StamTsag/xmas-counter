@@ -2,8 +2,8 @@
 
 <h1 style='text-align: center;'>
 
-![Website](https://img.shields.io/website?down_message=down&label=status&style=for-the-badge&up_message=up&url=https%3A%2F%2Fxmasdays.herokuapp.com)
-![GitHub](https://img.shields.io/github/license/Shadofer/xmas-counter?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/Shadofer/xmas-counter?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/Shadofer/xmas-counter?style=for-the-badge) ![Lines of code](https://img.shields.io/tokei/lines/github/Shadofer/xmas-counter?style=for-the-badge) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Shadofer/xmas-counter?style=for-the-badge)</h1>
+![Website](https://img.shields.io/website?down_message=down&label=status&style=for-the-badge&up_message=up&url=https%3A%2F%2Fxmas.stamtsag.com)
+![GitHub](https://img.shields.io/github/license/Shadofer/xmas-counter?style=for-the-badge)
 
 ## An open source xmas counter
 
